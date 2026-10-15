@@ -21,7 +21,7 @@ python3 -m http.server 8080 --bind 0.0.0.0
 Open `http://localhost:8080`. Microphone recording requires HTTPS or localhost and browser permission. Speech voice availability depends on the device. Recordings remain in memory and are not part of backups.
 
 ## GitHub Pages
-Publish the `main` branch, root folder, from Settings → Pages. The `.nojekyll` file disables Jekyll processing. All asset paths are relative to support a project Pages URL.
+Publish the `main` branch, root folder, from Settings → Pages. The published index.html is a self-contained bundle with CSS, JavaScript and the font embedded; it works under a project Pages URL.
 
 ## Tencent CloudStudio
 Import this repository or upload these files to an HTML-CSS-JS application. Run the server command above, expose port 8080 through CloudStudio's preview interface, and use its application sharing/publishing controls. CloudStudio account access is required; preview availability can depend on the workspace remaining active.
@@ -33,4 +33,4 @@ Progress is saved only under the current origin in localStorage. Changing the ho
 A2–B2 labels describe approximate content progression, not a standardized placement test. Completion is practice completion, not proficiency certification. Listening uses synthesized speech. Writing checks count words, punctuation and connectors; they do not evaluate truth, argument quality or grammatical correctness. Original lesson scenarios and sample responses are practice materials, not sourced research claims or work to submit as school assignments.
 
 ## Font
-Source Serif 4 is bundled under the SIL Open Font License; see `assets/OFL.txt`.
+Source Serif 4 is bundled under the SIL Open Font License; see `FONT-LICENSE.txt`.
